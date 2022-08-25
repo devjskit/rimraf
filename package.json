@@ -1,6 +1,6 @@
 {
   "name": "@whatskit/rimraf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A deep deletion module for node (like `rm -rf`)",
   "author": "Billgo <hi@billgo.me>",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "LICENSE",
     "README.md",
     "bin.js",
-    "rimraf.js"
+    "index.js"
   ],
   "dependencies": {
     "glob": "^7.1.3"
