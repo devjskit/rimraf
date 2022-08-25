@@ -25,5 +25,13 @@
   "devDependencies": {
     "mkdirp": "^0.5.1",
     "tap": "^15.1.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
   }
 }
