@@ -1,16 +1,13 @@
 {
-  "name": "@whatskit/rimraf",
+  "name": "@devjskit/rimraf",
   "version": "0.1.1",
   "description": "A deep deletion module for node (like `rm -rf`)",
   "author": "Billgo <hi@billgo.me>",
   "license": "ISC",
-  "repository": "git://github.com/whatskit/rimraf.git",
+  "bugs": "https://github.com/devjskit/rimraf/issues",
   "main": "./index.js",
   "bin": "./bin.js",
   "scripts": {
-    "preversion": "npm test",
-    "postversion": "npm publish",
-    "postpublish": "git push origin --follow-tags",
     "test": "tap test/*.js"
   },
   "files": [
